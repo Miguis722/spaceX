@@ -1,0 +1,39 @@
+@import url(variable.css);
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.footer_Space_X {
+    display: flex;
+    justify-content: center;
+    background-color: #1A1C48;
+    padding: 20px 0px;
+}
+
+.footer_Space_X_ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_Space_X_ul li {
+    margin: 10px;
+    text-align: center;
+}
+.footer_Space_X_ul li a {
+    color: var(--color-3);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_Space_X_ul li a img {
+    margin-bottom: 5px;
+}
