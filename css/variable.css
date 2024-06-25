@@ -1,0 +1,24 @@
+:root {
+    --color-1: #2D2F40;
+    --color-2: #404790;
+    --color-3: #fff;
+    --color-4: #FFE990;
+    --color-5: #69AEFF;
+    --color-6: #E72D2D;
+}
+
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(../storage/fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../storage/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Reboto-Medium';
+    src: url(../storage/fonts/Roboto/Roboto-Medium.ttf);
+}
