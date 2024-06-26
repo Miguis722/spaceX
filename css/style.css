@@ -21,15 +21,21 @@ body {
 
 
 /* MAIN */
-
 .main_information_space_x {
     color: var(--color-3);
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    gap: 15px;
 }
+
+/* LEFT */
 
 /* NAV IZQUIERDA/LEFT - ALL */
 .container_main_nav_description {
     width: 20%;
-    /* background-color: rebeccapurple; */
+    background-color: rebeccapurple;
     overflow: hidden;
     overflow-y: scroll;
     display: flex;
@@ -45,8 +51,6 @@ body {
     gap: 15px;
     margin-bottom: 15px;
 }
-
-
 
 /* NAV IZQUIERDA/LEFT - Images */
 .container_main_nav_description img {
@@ -67,6 +71,66 @@ body {
 }
 
 
+/* MIDDLE */
+
+/*SECTION MAIN/CENTER */
+.Main_center_information {
+    width: 60%;
+    background-color: thistle ;
+}
+
+
+
+
+
+
+/* ARTICLE BELOW */
+.section_information_inferior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: var(--color-3);
+}
+
+hr {
+color: #000;
+height: 1px;
+background-color: #000;
+}
+
+.information_table_left, .information_table_right {
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.specific_information_table_left, .specific_information_table_right {
+    display: flex;
+    flex-direction: column;
+}
+
+.specific_information_table_left div, .specific_information_table_right div {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+/* RIGHT */
+
+/* NAV DERECHA/RIGHT */
+.Main_right_information{
+    width: 20%;
+    background-color: aliceblue;
+}
 
 /* FOOTER */
 .footer_Space_X {
