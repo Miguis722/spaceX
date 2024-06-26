@@ -8,6 +8,7 @@
 
 body {
     background-color: var(--color-1);
+    font-family: 'Roboto-Regular';
 }
 
 /* HEADER */
@@ -35,7 +36,7 @@ body {
 /* NAV IZQUIERDA/LEFT - ALL */
 .container_main_nav_description {
     width: 20%;
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     overflow: hidden;
     overflow-y: scroll;
     display: flex;
@@ -76,13 +77,27 @@ body {
 /*SECTION MAIN/CENTER */
 .Main_center_information {
     width: 60%;
-    background-color: thistle ;
+    /* background-color: thistle ; */
 }
 
 
 
 
+/* CARRUSEL */
+.Main_center_information_carrusel {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
 
+.images_carrusel {
+    display: flex;
+    flex-direction: row;
+    gap: 5vh;
+    flex-wrap: nowrap;
+    width: 100%;
+    overflow-y: scroll;
+    flex-shrink: 0;
+}
 
 /* ARTICLE BELOW */
 .section_information_inferior {
@@ -99,6 +114,9 @@ background-color: #000;
 }
 
 .information_table_left, .information_table_right {
+    height: 150px;
+    overflow: hidden;
+    overflow-y: scroll;
     /* background-color: aqua; */
     display: flex;
     flex-direction: column;
