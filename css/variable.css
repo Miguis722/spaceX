@@ -19,6 +19,16 @@
 }
 
 @font-face {
-    font-family: 'Reboto-Medium';
+    font-family: 'Roboto-Medium';
     src: url(../storage/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Thin';
+    src: url(../storage/fonts/Roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url(../storage/fonts/Roboto/Roboto-Italic.ttf);
 }
