@@ -87,20 +87,37 @@ body {
 
 
 /* CARRUSEL */
-.Main_center_information_carrusel {
-    overflow-y: hidden;
-    overflow-x: auto;
+/* Contenedor principal */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
+/* Contenedor del carrusel */
+.Main_center_information_carrusel {
+    display: flex;
+    height: 190px;
+    width: 305px;
+    border: 1px solid var(--color-3);
+    overflow: hidden; /* Evitar desbordamiento */
+    /* No necesitamos justify-content ni align-items aquí, ya que estamos centrando este div dentro del contenedor principal */
+}
+
+/* Images*/
 .images_carrusel {
     display: flex;
     flex-direction: row;
     gap: 5vh;
-    flex-wrap: nowrap;
     width: 100%;
-    overflow-y: scroll;
+    overflow-x: scroll;
     flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    height: 189px;
 }
+
 
 /* ARTICLE BELOW */
 .section_information_inferior {
