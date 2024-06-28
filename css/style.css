@@ -66,8 +66,14 @@ body {
 /* NAV IZQUIERDA/LEFT - Small (text) */
 .container_main_nav_description small {
     font-family: 'Roboto-Regular';
+    text-align: justify;
 }
 
+.container_main_nav_description small a {
+    color: var(--color-3);
+    text-decoration: none;
+
+}
 
 /* MIDDLE */
 
