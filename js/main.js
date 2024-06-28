@@ -1,4 +1,5 @@
 import { menubuttonsClickeable } from "./components/buttons.js";
+import { updateLeftTextsRocket } from "./components/textleft-rocket.js";
 import { updateTitleByRocketId } from "./components/title.js";
 
 let footerSelect = async(e, id) =>{
@@ -127,7 +128,7 @@ ships.addEventListener("click", async(e) =>{
     buttons.append(await menubuttonsClickeable())
 })
 
-let starlink = document.querySelectorb(".buttons")
+let starlink = document.querySelector(".buttons")
 starlink.addEventListener("click", async(e) =>{
     await footerSelect(e, starlink)
     let buttons = document.querySelector(".buttons");
@@ -138,7 +139,8 @@ starlink.addEventListener("click", async(e) =>{
 
 // ejemplo de uso
 document.addEventListener('DOMContentLoaded', () => {
-    updateTitleByRocketId('5e9d0d95eda69974db09d1ed'); // ID de ejemplo
+    updateTitleByRocketId('5e9d0d95eda69955f709d1eb'); // ID de ejemplo
+    updateLeftTextsRocket('5e9d0d95eda69955f709d1eb');
 });
 
 

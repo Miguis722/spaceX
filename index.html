@@ -321,9 +321,11 @@
 </body>
 <script type="module">
     import {updateTitleByRocketId } from './js/components/title.js';
+    import { updateLeftTextsRocket } from './js/components/textleft-rockets.js';
 
     document.addEventListener('DOMContentLoaded', () => {
         updateTitleByRocketId('5e9d0d95eda69955f709d1eb');
+        updateLeftTextsRocket('5e9d0d95eda69955f709d1eb');
     });
 
     window.updateTitle = (id) => {
