@@ -197,7 +197,8 @@ background-color: #000;
     margin-bottom: 30px;
     overflow: hidden;
     overflow-y: scroll;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 15px;
     display: flex;
     flex-direction: column;
 }
