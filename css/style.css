@@ -83,8 +83,23 @@ body {
     /* background-color: thistle ; */
 }
 
+/* GIFS CENTRALES */
+.rockets_gif {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 
+.image_rocket img, .image_rocket_right img {
+    height: 150px;
+    width: 150px;
+}
 
+.image_rocket_right {
+    transform: scaleX(-1);
+}
 
 /* CARRUSEL */
 /* Contenedor principal */
