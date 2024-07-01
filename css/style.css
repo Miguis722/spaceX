@@ -294,10 +294,15 @@ button:hover {
     display: flex;
     background-color: cadetblue;
     padding: 20px 0px;
-    width: 60%;
+    width: 75%;
     border-top-left-radius: 70px;
     border-top-right-radius: 70px;
-    position: relative;
+    position: absolute;
+    bottom: 0; /* Alinea el footer en la parte inferior */
+    left: 50%; /* Centra horizontalmente */
+    transform: translateX(-50%); /* Corrige la centración horizontal */
+    height: 100px;
+    align-content: center;
 }
 
 .footer_Space_X_ul {
@@ -305,7 +310,8 @@ button:hover {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 5px 10px;
     align-items: center;
 }
 
@@ -313,6 +319,7 @@ button:hover {
     margin: 10px;
     text-align: center;
 }
+
 .footer_Space_X_ul li a {
     color: var(--color-3);
     text-decoration: none;
