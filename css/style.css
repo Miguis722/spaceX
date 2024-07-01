@@ -85,6 +85,27 @@ body {
     /* background-color: thistle ; */
 }
 
+/* MAIN SUPERIOR */
+.section_information_superior {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.progress__value {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.progress__value strong {
+    text-align: center;
+}
 /* GIFS CENTRALES */
 .rockets_gif {
     display: flex;

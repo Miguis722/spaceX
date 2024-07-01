@@ -37,3 +37,27 @@ export const getAllRockets = async() => { // Traemos toda la información de tod
 export const getRocketById = (rocketsData, id) => {
     return rocketsData.find(rocket => rocket.id === id);
 }
+
+export const getAllRocketEngineThrustVacuumTotal = async () => {
+    let config = {
+        headers: {
+            "content-type": "application/json"
+        },
+        method: "POST",
+        body: JSON.stringify({
+            "options": {
+                "select": {
+                    "engines": 1
+                },
+                "sort": {
+                    "engines.thrust_vacuum": "desc"
+                }
+            }
+        })
+    };
+
+    let res = await fetch("https://api.spacexdata.com/v4/rockets/query", config);
+    let { docs: [{ engines } = { engines: {} }] } = await res.json(); // Utiliza destructuring para obtener los motores del cohete con el mayor empuje al vacío
+    let totalKN = engines.thrust_vacuum; // Obtiene el empuje al vacío de los motores de cohete
+    return totalKN; // Retorna el empuje al vacío total de los motores de cohete
+};
