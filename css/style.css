@@ -7,8 +7,10 @@
 }
 
 body {
-    background-color: var(--color-1);
+    /* background-color: var(--color-1); */
     font-family: 'Roboto-Regular';
+    background-image: url(../storage/images/background/background-space.gif);
+    background-size: cover 
 }
 
 /* HEADER */
