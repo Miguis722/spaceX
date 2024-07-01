@@ -109,13 +109,19 @@ body {
 .images_carrusel {
     display: flex;
     flex-direction: row;
-    gap: 5vh;
     width: 100%;
+    gap:30px;
     overflow-x: scroll;
     flex-shrink: 0;
     align-items: center;
     justify-content: center;
     height: 189px;
+    background-color: var(--color-5);
+}
+
+.LAimage {
+    height: 189px;
+    width: 100%;
 }
 
 
