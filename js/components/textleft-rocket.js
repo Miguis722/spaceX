@@ -9,7 +9,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>${country}</h3>
@@ -20,7 +20,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>Responsible Company</h3>
@@ -31,7 +31,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>The estimated cost per rocket launch</h3>
@@ -42,7 +42,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>The date of the first flight of the rocket</h3>
@@ -53,7 +53,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>Tase of success in porcent</h3>
@@ -64,7 +64,7 @@ const tableleftRockets = async (rocketData) => {
     <nav class="main_nav_description" id="nav_main">
         <div class="description_item" id="description_item">
             <div class="images_nav_left_div" id="div_images_left">
-                <img src="storage/images/icons/mech.svg">
+                <img src="../storage/images/icons/mech.svg">
             </div>
             <div class="information_about_left" id="nav_left_div">
                 <h3>READ MORE ABOUT IT</h3>
