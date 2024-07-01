@@ -131,7 +131,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 189px;
-    background-color: var(--color-5);
+    /* background-color: var(--color-5); */
 }
 
 .LAimage {
@@ -192,11 +192,38 @@ background-color: #000;
 
 /* NAV DERECHA/RIGHT */
 .Main_right_information{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     height: 500px;
     margin-bottom: 30px;
     overflow: hidden;
     overflow-y: scroll;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+}
+
+.information__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+}
+
+.information_text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 /* Buttons*/
