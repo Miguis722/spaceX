@@ -1,3 +1,4 @@
+import { updateInformationBelowHistory } from "./down-info/downinfo.js";
 import { updateLeftTextsHistory } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
