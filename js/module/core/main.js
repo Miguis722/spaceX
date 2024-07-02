@@ -1,3 +1,4 @@
+import { updateInformationBelowCore } from "./down-info/down-info.js";
 import { updateLeftTextsCore } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
