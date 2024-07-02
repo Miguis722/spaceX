@@ -1,4 +1,5 @@
 import { updateInformationBelowLandspads } from './down-info/downinfo.js';
+import { updateImagesLandspads } from './images/images.js';
 import { updateLeftTextsLandspads } from './textleft/textleft.js';
 import { generateButtons } from "./title/title.js";
 
@@ -15,6 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
             await updateLeftTextsLandspads(LandspadsId);
             await updateInformationBelowLandspads(LandspadsId);
+            await updateImagesLandspads(LandspadsId);
         }
     });
 
