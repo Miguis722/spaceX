@@ -1,3 +1,4 @@
+import { updateInformationBelowCrew } from "./down-info/down-info.js";
 import { updateImagesCrew } from "./images/images.js";
 import { generateButtons } from "./title/title.js";
 
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
             // await updateLeftTextsCrew(crewId);
-            // await updateInformationBelowCrew(crewId);
+            await updateInformationBelowCrew(crewId);
             await updateImagesCrew(crewId);
 
         }
