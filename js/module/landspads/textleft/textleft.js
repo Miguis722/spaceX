@@ -3,7 +3,7 @@ import { getAllLandspads, getLandspadsById } from "../../../components/landspads
 // Función para hacer la plantilla de cómo deberá aparecer el contenido de la parte izquierda.
 const tableleftLandspads = async (LandspadsData) => {
     // Desestructuración de los datos necesarios
-    const { details, links: { article } } = LandspadsData;
+    const { region, locality, details, wikipedia } = LandspadsData;
 
     // Generación de la plantilla HTML
     let plantilla = /*html*/`
@@ -13,7 +13,18 @@ const tableleftLandspads = async (LandspadsData) => {
                     <img src="../storage/images/icons/mech.svg">
                 </div>
                 <div class="information_about_left" id="nav_left_div">
-                    <h3>Details about</h3>
+                    <h3>Location: ${region}</h3>
+                    <small>${locality}</small>
+                </div>
+            </div>
+        </nav>
+        <nav class="main_nav_description" id="nav_main">
+            <div class="description_item" id="description_item">
+                <div class="images_nav_left_div" id="div_images_left">
+                    <img src="../storage/images/icons/mech.svg">
+                </div>
+                <div class="information_about_left" id="nav_left_div">
+                    <h3>Description</h3>
                     <small>${details}</small>
                 </div>
             </div>
@@ -25,7 +36,7 @@ const tableleftLandspads = async (LandspadsData) => {
                 </div>
                 <div class="information_about_left" id="nav_left_div">
                     <h3>More about</h3>
-                    <small><a href="${article}" target="_blank">About...</a></small>
+                    <small><a href="${wikipedia}" target="_blank">Wikipedia</a></small>
                 </div>
             </div>
         </nav>
