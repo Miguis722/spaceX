@@ -1,3 +1,4 @@
+import { updateInformationBelowLandspads } from './down-info/downinfo.js';
 import { updateLeftTextsLandspads } from './textleft/textleft.js';
 import { generateButtons } from "./title/title.js";
 
