@@ -10,11 +10,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     // Listener para actualizar el contenido al hacer clic en los botones
     buttonsContainer.addEventListener('click', async (event) => {
         if (event.target && event.target.nodeName === 'BUTTON') {
-            const crewId = event.target.id; // Obtener el ID del botón clickeado
+            const coreId = event.target.id; // Obtener el ID del botón clickeado
 
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
-            await updateLeftTextsCrew(crewId);
-            await updateInformationBelowCrew(crewId);
+            await updateLeftTextsCore(coreId);
+            await updateInformationBelowCore(coreId);
 
         }
     });
