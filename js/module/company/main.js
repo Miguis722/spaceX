@@ -1,4 +1,5 @@
 import { updateInformationBelowCompany } from "./down-info/down-info.js";
+import { updateLeftTextsCompany } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
 // Llamar a la función para generar los botones dinámicamente
@@ -13,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const companyId = event.target.id; // Obtener el ID del botón clickeado
 
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
-            // await updateLeftTextsCompany(companyId);
+            await updateLeftTextsCompany(companyId);
             await updateInformationBelowCompany(companyId);
             // await updateImagesCompany(companyId);
 
