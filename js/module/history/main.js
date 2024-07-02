@@ -1,3 +1,4 @@
+import { updateLeftTextsHistory } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
 // Llamar a la función para generar los botones dinámicamente
