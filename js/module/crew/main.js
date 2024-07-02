@@ -1,5 +1,6 @@
 import { updateInformationBelowCrew } from "./down-info/down-info.js";
 import { updateImagesCrew } from "./images/images.js";
+import { updateLeftTextsCrew } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
 // Llamar a la función para generar los botones dinámicamente
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             const crewId = event.target.id; // Obtener el ID del botón clickeado
 
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
-            // await updateLeftTextsCrew(crewId);
+            await updateLeftTextsCrew(crewId);
             await updateInformationBelowCrew(crewId);
             await updateImagesCrew(crewId);
 
