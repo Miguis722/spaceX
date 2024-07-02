@@ -1,3 +1,4 @@
+import { updateInformationBelowShip } from './down-info/down-info.js';
 import { updateImagesShips } from './images/images.js';
 import { updateLeftTextsShip } from './textleft/textleft.js';
 import { generateButtons } from './title/title.js';
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             await updateLeftTextsShip(shipId);
 
             // Aquí podrías llamar a otras funciones para actualizar más elementos según sea necesario
-            // await updateInformationBelowShip(shipId);
+             await updateInformationBelowShip(shipId);
 
             // Simular que estas funciones están definidas y hacen algo similar a updateImagesShips
             console.log(`Actualizando otros elementos para el ship con ID: ${shipId}`);
