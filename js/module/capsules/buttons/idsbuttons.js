@@ -1,4 +1,4 @@
-export const ids = [ // Los 25 ID'S de capsulas
+export const idsbuttonscapsules = [ // Los 25 ID'S de capsulas
     "5e9e2c5bf35918ed873b2664",
     "5e9e2c5bf3591882af3b2665",
     "5e9e2c5bf3591835983b2666",
