@@ -1,4 +1,6 @@
+import { updateInformationBelowroadster } from "./down-info/downinfo.js";
 import { updateImagesroadster } from "./images/images.js";
+import { updateLeftTextsroadster } from "./textleft/textleft.js";
 import { generateButtons } from "./title/title.js";
 
 generateButtons();
@@ -12,8 +14,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             const roadsterId = event.target.id; // Obtener el ID del botón clickeado
 
             // Llamar a las funciones para actualizar el contenido con el ID del cohete
-            // await updateLeftTextsroadster(roadsterId);
-            // await updateInformationBelowroadster(roadsterId);
+            await updateLeftTextsroadster(roadsterId);
+            await updateInformationBelowroadster(roadsterId);
             await updateImagesroadster(roadsterId);
         }
     });
